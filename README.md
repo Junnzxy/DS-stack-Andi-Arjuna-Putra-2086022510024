@@ -36,7 +36,7 @@ Masalah	Format Input	Contoh Input
 - Bouncing Bomb	Satu angka integer	75
 - Cheat Buster Baris angka acak dipisahkan spasi	42 9 17 63
 
-Penjelasan Implementasi (5 Tantangan)
+Penjelasan Implementasi
 - RPN Evaluation: Menggunakan Stack<Integer> untuk menghitung notasi postfix. Angka dimasukkan ke tumpukan, dan saat operator ditemukan, dua angka teratas diambil untuk dihitung.
 - Chrono Stack Engine: Menggunakan logika Recursive Divide & Conquer. Angka target dibangun dengan membagi dua secara terus menerus untuk meminimalkan jumlah instruksi d dan +.
 - Cheat Buster Security: Menggunakan Arrays.sort() untuk mengurutkan kode acak. Logikanya memastikan angka terkecil masuk ke memori terlebih dahulu sesuai protokol keamanan.
