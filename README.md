@@ -40,3 +40,6 @@ Kasus Khusus (Edge Cases)
 - Tanpa Override: Jika subkelas tidak melakukan override (seperti pada metode attendMeeting), program secara otomatis menggunakan logika milik kelas induk.
 - Referensi Induk (Upcasting): Saat menggunakan Vehicle v2 = new Car(), variabel v2 hanya bisa mengakses metode yang ada di kelas Vehicle. Jika Car punya metode baru (misal: bukaSunroof()), metode itu tidak bisa dipanggil melalui v2.
 - Dynamic Dispatch: Java akan selalu mencari metode paling spesifik saat runtime. Jika objek aslinya adalah Programmer, maka metode work() milik Programmer yang akan dijalankan, bukan milik Employee.
+
+codingan ini mengambil ref dari: w3school, geeksforgeeks, 
+codingan ini hampir semuanya di buat oleh AI (Gemini dan Deepseek)
