@@ -30,29 +30,6 @@ Step by step
 2. Kompilasi semua file: javac *.java
 3. Jalankan program: java *.java
 
-Gemini said
-Berikut adalah draf dokumentasi README.md yang disusun dengan bahasa jelas, langsung, dan informatif sesuai dengan standar instruksi Anda.
-
-Panduan Penggunaan Program Java
-Dokumen ini berisi instruksi teknis untuk menjalankan kode program, asumsi yang digunakan, serta penanganan kasus khusus dalam implementasi Pemrograman Berorientasi Objek (OOP).
-
-Cara Kompilasi dan Menjalankan Program
-Pastikan Java Development Kit (JDK) sudah terinstal dan Terminal atau Command Prompt Anda dapat mengenali perintah java.
-
-Buka Terminal atau CMD.
-
-Arahkan ke folder tempat file .java disimpan.
-
-Kompilasi semua file sekaligus untuk memastikan keterhubungan antar kelas:
-javac *.java
-
-Jalankan kelas utama (Main Class) program:
-java [NamaKelasUtama]
-Contoh: java BouncingBomb atau java RPNEvaluator
-
-Format Input dan Contoh Penggunaan
-Program membaca input langsung dari terminal. Gunakan format berikut agar program berjalan dengan benar.
-
 Masalah	Format Input	Contoh Input
 - RPN Evaluator	Daftar string angka dan operator	2 1 + 3 *
 - Chrono Engine	Jumlah target (n) diikuti angka target	2 5 10
